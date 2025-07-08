@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "eamodio.gitlens",
+        "ms-toolsai.jupyter",
+        "ritwickdey.liveserver", // si usas Live Server para prototipos HTML
+        "tamasfe.even-better-toml",
+        "njpwerner.autodocstring", // para docstrings
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

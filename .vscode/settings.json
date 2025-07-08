@@ -1,0 +1,13 @@
+{
+  "python.pythonPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "data/cache": true
+  }
+}
