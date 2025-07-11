@@ -1,19 +1,19 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Streamlit: Run app",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/venv/bin/streamlit",
-            "args": [
-                "run",
-                "streamlit_app.py"
-            ],
-            "console": "integratedTerminal",
-            "env": {
-                "PYTHONPATH": "${workspaceFolder}/src"
-            }
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamlit: Run app",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\venv\\Scripts\\streamlit.exe",
+      "args": [
+        "run",
+        "streamlit_app.py"
+      ],
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    }
+  ]
 }
